@@ -11,7 +11,6 @@ if session_token == None or session_token == '':
 
 api = ChatGPT(session_token)  # auth with session token
 api = ChatGPT(session_token, conversation_id=conversation_id)  # specify conversation id
-api = ChatGPT(session_token, proxy='https://proxy.example.com:8080')  # specify proxy
 api = ChatGPT(session_token, chrome_args=['--window-size=1920,768'])  # specify chrome args
 api = ChatGPT(session_token, moderation=False)  # disable moderation
 api = ChatGPT(session_token, verbose=True)  # verbose mode (print debug messages)
