@@ -1,10 +1,16 @@
 from pyChatGPT import ChatGPT
 
-conversation_id=os.getenv('CONVERSATION_ID')
-session_token=os.getenv('SESSION_ID' )# `__Secure-next-auth.session-token` cookie from https://chat.openai.com/chat
+conversation_id=input("What conversation id should be used?")
+session_token=input("What session token should be used?")
+
+if conversation_id == None or conversation_id == '':
+    conversation_id=os.getenv('CONVERSATION_ID')
+
+if session_token == None or session_token == '':
+    session_token=os.getenv('SESSION_TOKEN' )# `__Secure-next-auth.session-token` cookie from https://chat.openai.com/chat
 
 api = ChatGPT(session_token)  # auth with session token
-api = ChatGPT(session_token, conversation_id='some-random-uuid')  # specify conversation id
+api = ChatGPT(session_token, conversation_id=conversation_id)  # specify conversation id
 api = ChatGPT(session_token, proxy='https://proxy.example.com:8080')  # specify proxy
 api = ChatGPT(session_token, chrome_args=['--window-size=1920,768'])  # specify chrome args
 api = ChatGPT(session_token, moderation=False)  # disable moderation
