@@ -11,4 +11,4 @@ brew install tesseract
 pip install -U sentence-transformers
 pip install chromadb
 python -m spacy download en_core_web_lg to get "en_core_web_lg"
-pip install requierments.txt
+pip install -r requierments.txt
