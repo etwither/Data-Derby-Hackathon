@@ -1,0 +1,982 @@
+
+-----------------NLP-----------------
+
+SHADED 76 82 GPE
+This Report Contains Information Subject 198 238 ORG
+the Privacy Act 242 257 LAW
+1974 261 265 DATE
+1 280 281 CARDINAL
+First 295 300 ORDINAL
+2 310 311 CARDINAL
+BRANCH 3 339 347 LAW
+IHARVEY GATO 372 384 ORG
+605 416 419 CARDINAL
+4343 425 429 CARDINAL
+4a 430 432 CARDINAL
+5 468 469 CARDINAL
+BIRTH 479 484 PERSON
+YYYYMMDD 486 494 ORG
+16 496 498 CARDINAL
+SSG ES 19921204 536 551 ORG
+YYYYMMDD 553 561 ORG
+20230121 563 571 CARDINAL
+7a 572 574 CARDINAL
+EL SEGUNDO 691 701 ORG
+CA 702 704 GPE
+CA 712 714 GPE
+8a 715 717 CARDINAL
+12 790 792 CARDINAL
+AF LIFE 793 800 ORG
+MTC 815 818 ORG
+RANDOLPH TX 826 837 ORG
+9 838 839 CARDINAL
+400,000 905 912 MONEY
+11 913 915 CARDINAL
+years 959 964 DATE
+months 969 975 DATE
+72 979 981 DATE
+THIS PERIOD 1113 1124 DATE
+2015 NOV 09
+Periods of 1125 1147 DATE
+one 1148 1151 CARDINAL
+3D153 1199 1204 CARDINAL
+JOURNEYMAN 1230 1240 ORG
+4 YEARS 1242 1249 DATE
+2020 1254 1258 DATE
+8 MONTHS 1266 1274 DATE
+04 10 00 1310 1318 DATE
+09 18 1393 1398 DATE
+03 02 13 1418 1426 DATE
+00 00 00 1442 1450 CARDINAL
+2020 1520 1524 DATE
+13 1532 1534 CARDINAL
+14 1588 1590 CARDINAL
+weeks 1636 1641 DATE
+RIBBONS AWARDED 1657 1672 ORG
+Air Force Commendation Medal 1728 1756 PRODUCT
+1 1762 1763 CARDINAL
+Air Force 1782 1791 PRODUCT
+TRG 1810 1813 ORG
+JAN 2016 1815 1823 DATE
+TJO 1826 1829 ORG
+1 1867 1868 CARDINAL
+National Defense Service Medal 1969 1999 ORG
+Global War on Terrorism Service Medal 2001 2038 EVENT
+FEB 2016 2040 2048 DATE
+OWR 2051 2054 ORG
+Nuclear Deterrence Operations Service Medal 2098 2141 ORG
+AF Longevity Service 2143 2163 ORG
+JUN 2177 2180 PERSON
+2016 2181 2185 DATE
+DEC 2220 2223 ORG
+AF Training Ribbon 2254 2272 ORG
+2017 2274 2278 DATE
+OK2 2281 2284 PERSON
+MAR 2329 2332 PERSON
+2019;//SEE REMARKS//
+
+15a 2333 2358 QUANTITY
+COMMISSIONED THROUGH SERVICE 2360 2388 ORG
+COMMISSIONED THROUGH ROTC SCHOLARSHIP 2413 2450 ORG
+10 2452 2454 CARDINAL
+USC Sec 2455 2462 ORG
+2107b 2464 2469 PERSON
+10 2525 2527 CARDINAL
+USC Chap 2528 2536 ORG
+109 2538 2541 CARDINAL
+years 2552 2557 DATE
+16 2587 2589 CARDINAL
+17 2610 2612 CARDINAL
+90 DAYS 2735 2742 DATE
+18 2765 2767 CARDINAL
+14 2783 2785 CARDINAL
+AIRMAN LEADERSHIP SCHOOL 2787 2811 PERSON
+JUL 2019 2825 2833 ORG
+ERT 2836 2839 ORG
+JUL 2019 2867 2875 ORG
+first 2898 2903 ORDINAL
+annual 2966 2972 DATE
+the Department of Defense 3079 3104 ORG
+19a 3303 3306 CARDINAL
+ZIP Code 3409 3417 ORG
+4900 N GRAND 3419 3431 ORG
+AVE 3432 3435 ORG
+APT 3436 3439 ORG
+131 3440 3443 CARDINAL
+IANDRE 3444 3450 DATE
+CA 91724 3465 3473 PRODUCT
+AVE 3488 3491 ORG
+20 3518 3520 CARDINAL
+6 BE SENT 3543 3552 QUANTITY
+CA 3585 3587 GPE
+VETERANS AFFAIRS 3599 3615 ORG
+3 BE SENT 3658 3667 QUANTITY
+VETERANS AFFAIRS 3711 3727 PERSON
+WASHINGTON 3741 3751 GPE
+DC 3753 3755 GPE
+21.2 3757 3761 CARDINAL
+22.2 3789 3793 CARDINAL
+YYYYMMDD 3870 3878 ORG
+YYYYMMDD 3928 3936 ORG
+Damon C. Baez 3971 3984 PERSON
+Sep 08 2020 4012 4023 DATE
+4:10:21 PM 4024 4034 TIME
+20200908 4041 4049 CARDINAL
+CAC Serial Number 4050 4067 PRODUCT
+DOD ID 4087 4093 ORG
+214 4109 4112 CARDINAL
+2009 4118 4122 DATE
+MEMBER-1 4152 4160 GPE
+
+-----------------NLTK-----------------
+
+(S
+  CAUTION/NN
+  :/:
+  NOT/NN
+  TO/NNP
+  BE/NNP
+  USED/NNP
+  FOR/NNP
+  THIS/NNP
+  IS/VBZ
+  AN/NNP
+  (ORGANIZATION IMPORTANT/NNP)
+  RECORD/NNP
+  ./.
+  ANY/NNP
+  ALTERATIONS/NNP
+  IN/NNP
+  SHADED/NNP
+  AREAS/NNP
+  IDENTIFICATION/NNP
+  PURPOSES/NNP
+  SAFEGUARD/NNP
+  IT/NNP
+  ./.
+  (ORGANIZATION RENDER/NNP)
+  FORM/NNP
+  VOID/NNP
+  (ORGANIZATION CERTIFICATE/NNP OF/NNP)
+  RELEASE/NNP
+  OR/NNP
+  DISCHARGE/NNP
+  FROM/NNP
+  ACTIVE/NNP
+  DUTY/NNP
+  This/DT
+  Report/NNP
+  Contains/NNP
+  Information/NNP
+  Subject/NNP
+  to/TO
+  the/DT
+  (ORGANIZATION Privacy/NNP Act/NNP)
+  of/IN
+  1974/CD
+  ,/,
+  As/IN
+  (GPE Amended/NNP)
+  ./.
+  1/CD
+  ./.
+  NAME/NN
+  (/(
+  Last/JJ
+  ,/,
+  (PERSON First/NNP)
+  ,/,
+  (GPE Middle/NNP)
+  )/)
+  2/CD
+  ./.
+  DEPARTMENT/NNP
+  ,/,
+  (ORGANIZATION COMPONENT/NNP)
+  AND/NNP
+  BRANCH/NNP
+  3/CD
+  ./.
+  (ORGANIZATION SOCIAL/NNP)
+  (ORGANIZATION SECURITY/NNP)
+  NUMBER/NNP
+  IHARVEY/NNP
+  (ORGANIZATION GATO/NNP)
+  ELEAZAR/NNP
+  SLADE/NNP
+  AIR/NNP
+  FORCE/NNP
+  --/:
+  REGAF/VBD
+  605/CD
+  |/NN
+  76/CD
+  4343/CD
+  4a/CD
+  ./.
+  GRADE/NNP
+  ,/,
+  (ORGANIZATION RATE/NNP)
+  OR/NNP
+  (ORGANIZATION RANK/NNP)
+  ib/NN
+  ./.
+  (ORGANIZATION PAY/NNP)
+  GRADE/NNP
+  5/CD
+  ./.
+  (ORGANIZATION DATE/NN OF/IN BIRTH/NNP)
+  (/(
+  (ORGANIZATION YYYYMMDD/NNP)
+  )/)
+  16/CD
+  ./.
+  (ORGANIZATION RESERVE/NNP)
+  OBLIGATION/NNP
+  TERMINATION/NNP
+  (ORGANIZATION DATE/NNP)
+  SSG/NNP
+  ES/NNP
+  19921204/CD
+  (/(
+  (ORGANIZATION YYYYMMDD/NNP)
+  )/)
+  20230121/CD
+  7a/CD
+  ./.
+  (ORGANIZATION PLACE/NN OF/NNP)
+  (ORGANIZATION ENTRY/NNP)
+  (ORGANIZATION INTO/NNP)
+  ACTIVE/NNP
+  DUTY/NNP
+  lb/NN
+  ./.
+  HOME/NNP
+  OF/IN
+  (ORGANIZATION RECORD/NNP)
+  AT/NNP
+  (ORGANIZATION TIME/NNP OF/NNP)
+  ENTRY/NNP
+  (/(
+  (ORGANIZATION City/NNP)
+  and/CC
+  state/NN
+  ,/,
+  or/CC
+  complete/JJ
+  address/NN
+  if/IN
+  known/VBN
+  )/)
+  EL/NNP
+  SEGUNDO/NNP
+  CA/NNP
+  (ORGANIZATION COVINA/NNP)
+  CA/NNP
+  8a/CD
+  ./.
+  LAST/NNP
+  DUTY/NNP
+  (ORGANIZATION ASSIGNMENT/NNP)
+  AND/NNP
+  MAJOR/NNP
+  (ORGANIZATION COMMAND/NNP)
+  lb/NN
+  ./.
+  (ORGANIZATION STATION/NNP)
+  WHERE/NNP
+  SEPARATED/NNP
+  DET/NNP
+  12/CD
+  AF/NNP
+  LIFE/NNP
+  CYCLE/NNP
+  MGT/NNP
+  CE/NNP
+  (/(
+  (ORGANIZATION MTC/NNP)
+  )/)
+  |JBSA/VBP
+  (ORGANIZATION RANDOLPH/NNP)
+  TX/NNP
+  9/CD
+  ./.
+  (ORGANIZATION COMMAND/NN TO/NNP)
+  (ORGANIZATION WHICH/NNP)
+  TRANSFERRED/NNP
+  :/:
+  (ORGANIZATION SGLI/JJ)
+  (ORGANIZATION COVERAGE/NNP)
+  NONE/NNP
+  USAFR/NNP
+  AMOUNT/NNP
+  :/:
+  $/$
+  400,000/CD
+  11/CD
+  ./.
+  PRIMARY/NNP
+  SPECIALTY/NNP
+  (/(
+  (ORGANIZATION List/NNP)
+  number/NN
+  ,/,
+  title/NN
+  and/CC
+  years/NNS
+  and/CC
+  months/NNS
+  in/IN
+  72/CD
+  ./.
+  (ORGANIZATION RECORD/NN OF/NNP)
+  SERVICE/NNP
+  YEAR/NNP
+  (/(
+  S/NNP
+  )/)
+  |/NNP
+  MONTHS/NNP
+  )/)
+  |/NNP
+  DAY/NNP
+  (/(
+  S/NNP
+  )/)
+  specialty/NN
+  ./.
+  (PERSON List/NNP)
+  additional/JJ
+  specialty/NN
+  numbers/NNS
+  and/CC
+  titles/NNS
+  involving/VBG
+  a/DT
+  ,/,
+  (ORGANIZATION DATE/NNP)
+  ENTERED/NNP
+  AD/NNP
+  THIS/NNP
+  PERIOD/NNP
+  2015/CD
+  NOV/NNP
+  09/CD
+  Periods/NNP
+  of/IN
+  one/CD
+  oF/NN
+  more/JJR
+  yeas/NNS
+  ./.
+  )/)
+  ‘/VBZ
+  (ORGANIZATION SEPARATION/NNP)
+  DATE/NNP
+  THIS/NNP
+  PERIOD/NNP
+  b/NN
+  ./.
+  3D153/CD
+  ,/,
+  (ORGANIZATION RF/NNP)
+  TRANSMISSION/NNP
+  SYSTEMS/NNP
+  JOURNEYMAN/NNP
+  ,/,
+  4/CD
+  YEARS/NNS
+  AND/RB
+  2020/CD
+  SEP/NNP
+  08/CD
+  8/CD
+  (ORGANIZATION MONTHS/NNP)
+  ./.
+  ©/NNP
+  ./.
+  (ORGANIZATION NET/NNP)
+  ACTIVE/NNP
+  SERVICE/NNP
+  THIS/NNP
+  PERIOD/VBZ
+  04/CD
+  10/CD
+  00/CD
+  d./NN
+  (ORGANIZATION TOTAL/NNP)
+  PRIOR/NNP
+  ACTIVE/NNP
+  SERVICE/NNP
+  00/CD
+  00/CD
+  00/CD
+  e./NN
+  (ORGANIZATION TOTAL/NNP)
+  PRIOR/NNP
+  (ORGANIZATION INACTIVE/NNP)
+  SERVICE/NNP
+  00/CD
+  09/CD
+  18/CD
+  f./JJ
+  (ORGANIZATION FOREIGN/NNP)
+  SERVICE/NNP
+  03/CD
+  02/CD
+  13/CD
+  g./NN
+  (ORGANIZATION SEA/NNP)
+  SERVICE/NNP
+  00/CD
+  00/CD
+  00/CD
+  h./JJ
+  (ORGANIZATION INITIAL/NNP)
+  ENTRY/NNP
+  TRAINING/NN
+  2015/CD
+  NOV/NNP
+  09/CD
+  i/NN
+  ,/,
+  (ORGANIZATION EFFECTIVE/NNP)
+  (ORGANIZATION DATE/NNP OF/NNP)
+  PAY/NNP
+  GRADE/NNP
+  2020/CD
+  JAN/NNP
+  01/CD
+  13/CD
+  ./.
+  DECORATIONS/NNP
+  ,/,
+  (ORGANIZATION MEDALS/NNP)
+  ,/,
+  (ORGANIZATION BADGES/NNP)
+  ,/,
+  (ORGANIZATION CITATIONS/NNP)
+  AND/NNP
+  CAMPAIGN/NNP
+  14/CD
+  ./.
+  MILITARY/JJ
+  EDUCATION/NN
+  (/(
+  (ORGANIZATION Course/NNP)
+  title/NN
+  ,/,
+  number/NN
+  of/IN
+  weeks/NNS
+  ,/,
+  and/CC
+  month/NN
+  and/CC
+  (ORGANIZATION RIBBONS/NNP)
+  AWARDED/NNP
+  OR/NNP
+  AUTHORIZED/NNP
+  (/(
+  All/DT
+  periods/NNS
+  of/IN
+  service/NN
+  )/)
+  year/NN
+  completed/VBN
+  )/)
+  (PERSON Air/NNP Force/NNP)
+  Commendation/NNP
+  Medal/NNP
+  with/IN
+  1/CD
+  Oak/NNP
+  Leaf/NNP
+  Cluster/NNP
+  ,/,
+  (PERSON Air/NNP Force/NNP AF/NNP)
+  BASIC/NNP
+  MILITARY/NNP
+  TRG/NNP
+  ,/,
+  (ORGANIZATION JAN/NNP)
+  2016/CD
+  ;/:
+  (/(
+  (ORGANIZATION TJO/NNP)
+  )/)
+  (ORGANIZATION INFORMATION/NNP)
+  Achievement/NNP
+  Medal/NNP
+  with/IN
+  1/CD
+  Oak/NNP
+  Leaf/NNP
+  Cluster/NNP
+  ,/,
+  (ORGANIZATION AF/NNP Good/NNP Conduct/NNP Medal/NNP)
+  ,/,
+  |/NNP
+  [/NNP
+  TECHNOLOGY/NNP
+  FUNDAMENTALS-ELECTRONIC/NNP
+  PRINCIPLES/NNP
+  (/(
+  ITF-EP/NNP
+  )/)
+  ,/,
+  (ORGANIZATION National/NNP Defense/NNP)
+  Service/NNP
+  Medal/NNP
+  ,/,
+  (PERSON Global/NNP War/NNP)
+  on/IN
+  (PERSON Terrorism/NNP Service/NNP Medal/NNP)
+  ,/,
+  (ORGANIZATION FEB/NNP)
+  2016/CD
+  ;/:
+  (/(
+  (ORGANIZATION OWR/NNP)
+  )/)
+  (ORGANIZATION RADIO/NNP)
+  FREQUENCY/NNP
+  (/(
+  RF/NNP
+  )/)
+  (ORGANIZATION TRANSMISSION/NNP)
+  SYSTEMS/NNP
+  Nuclear/NNP
+  Deterrence/NNP
+  Operations/NNP
+  Service/NNP
+  Medal/NNP
+  ,/,
+  (ORGANIZATION AF/NNP Longevity/NNP Service/NNP)
+  ,/,
+  (ORGANIZATION APPRENTICE/NNP)
+  ,/,
+  (ORGANIZATION JUN/NNP)
+  2016/CD
+  ;/:
+  (/(
+  9AA/CD
+  )/)
+  (ORGANIZATION AIR/NNP)
+  FORCE/NNP
+  TRAINING/NN
+  (ORGANIZATION COURSE/NNP)
+  ,/,
+  (ORGANIZATION DEC/NNP)
+  USAF/NNP
+  NCO/NNP
+  PME/NNP
+  Graduate/NNP
+  Ribbon/NNP
+  ,/,
+  (ORGANIZATION AF/NNP)
+  Training/NNP
+  Ribbon/NNP
+  ./.
+  2017/CD
+  ;/:
+  (/(
+  (ORGANIZATION OK2/NNP)
+  )/)
+  (ORGANIZATION CYBERSPACE/NNP)
+  OPERATIONS/NNP
+  FUNDAMENTALS/NNP
+  COURSE/NNP
+  ,/,
+  (ORGANIZATION MAR/NNP)
+  2019/CD
+  ;/:
+  //SEE/NNP
+  REMARKS///NNP
+  15a/CD
+  ./.
+  (ORGANIZATION COMMISSIONED/NNP)
+  THROUGH/NNP
+  SERVICE/NNP
+  ACADEMY/NNP
+  YES|/NNP
+  xX/NNP
+  |/NNP
+  NO/NNP
+  b/NN
+  ./.
+  (ORGANIZATION COMMISSIONED/NNP)
+  THROUGH/NNP
+  ROTC/NNP
+  SCHOLARSHIP/NNP
+  (/(
+  10/CD
+  (ORGANIZATION USC/NNP Sec/NNP)
+  ./.
+  2107b/CD
+  )/)
+  YES|_X_|/VBZ
+  (ORGANIZATION NO/NNP)
+  c./NN
+  (ORGANIZATION ENLISTED/NNP)
+  UNDER/NNP
+  LOAN/NNP
+  REPAYMENT/NNP
+  PROGRAM/NNP
+  (/(
+  10/CD
+  (ORGANIZATION USC/NNP Chap/NNP)
+  ./.
+  109/CD
+  )/)
+  (/(
+  If/IN
+  yes/VBN
+  ,/,
+  years/NNS
+  of/IN
+  commitment/NN
+  :/:
+  )/)
+  YES/UH
+  !/.
+  X/NNP
+  |/VBZ
+  NO/DT
+  16/CD
+  ./.
+  (ORGANIZATION DAYS/NNP)
+  ACCRUED/NNP
+  LEAVE/NNP
+  17/CD
+  ./.
+  MEMBER/NNP
+  WAS/NNP
+  PROVIDED/NNP
+  (ORGANIZATION COMPLETE/NNP)
+  (ORGANIZATION DENTAL/NNP)
+  EXAMINATION/NNP
+  AND/NNP
+  ALL/NNP
+  APPROPRIATE/NNP
+  YES/NNP
+  |/VBZ
+  (ORGANIZATION NO/NNP)
+  PAID/NNP
+  Q/NNP
+  (ORGANIZATION DENTAL/NNP)
+  SERVICES/NNP
+  AND/NNP
+  (ORGANIZATION TREATMENT/NNP)
+  WITHIN/NNP
+  90/CD
+  (ORGANIZATION DAYS/NNP)
+  PRIOR/NNP
+  TO/NNP
+  SEPARATION/NNP
+  X/NNP
+  18/CD
+  ./.
+  (ORGANIZATION REMARKS/NNP)
+  ITEM/NNP
+  14/CD
+  :/:
+  (ORGANIZATION AIRMAN/NNP)
+  LEADERSHIP/NNP
+  SCHOOL/NNP
+  (/(
+  (ORGANIZATION RESIDENCE/NNP)
+  )/)
+  ,/,
+  (ORGANIZATION JUL/NNP)
+  2019/CD
+  ;/:
+  (/(
+  (ORGANIZATION ERT/NNP)
+  )/)
+  (ORGANIZATION LAW/NN OF/NNP)
+  WAR/NNP
+  (/(
+  (ORGANIZATION LOW/NNP)
+  )/)
+  -/:
+  (ORGANIZATION BASIC/NNP)
+  ,/,
+  (ORGANIZATION JUL/NNP)
+  2019/CD
+  ./.
+  Member/NNP
+  has/VBZ
+  completed/VBN
+  first/JJ
+  full/JJ
+  term/NN
+  of/IN
+  service/NN
+  ./.
+  Subject/JJ
+  to/TO
+  recall/VB
+  to/TO
+  active/JJ
+  duty/NN
+  and/or/JJ
+  annual/JJ
+  screening/NN
+  ./.
+  --/:
+  -NOTHING/JJ
+  FOLLOWS-/JJ
+  =/IN
+  The/DT
+  information/NN
+  contained/VBN
+  herein/NN
+  is/VBZ
+  subject/JJ
+  to/TO
+  computer/NN
+  matching/VBG
+  within/IN
+  the/DT
+  (ORGANIZATION Department/NNP)
+  of/IN
+  (ORGANIZATION Defense/NNP)
+  or/CC
+  with/IN
+  any/DT
+  other/JJ
+  affected/JJ
+  Federal/NNP
+  or/CC
+  non-Federal/JJ
+  agency/NN
+  for/IN
+  verification/NN
+  purposes/NNS
+  and/CC
+  to/TO
+  determine/VB
+  eligibility/NN
+  for/IN
+  ,/,
+  and/or/JJ
+  continued/VBD
+  compliance/NN
+  with/IN
+  ,/,
+  the/DT
+  requirements/NNS
+  of/IN
+  a/DT
+  Federal/NNP
+  benefit/NN
+  program/NN
+  19a/CD
+  ./.
+  MAILING/NN
+  (ORGANIZATION ADDRESS/NNP)
+  AFTER/NNP
+  SEPARATION/NNP
+  (/(
+  (PERSON Include/NNP ZIP/NNP Code/NNP)
+  )/)
+  lb/NN
+  ./.
+  (ORGANIZATION NEAREST/NNP)
+  RELATIVE/NNP
+  (/(
+  (ORGANIZATION Name/NNP)
+  and/CC
+  address/JJ
+  -/:
+  include/VBP
+  (ORGANIZATION ZIP/NNP Code/NNP)
+  )/)
+  4900/CD
+  N/NNP
+  GRAND/NNP
+  AVE/NNP
+  APT/NNP
+  131/CD
+  (ORGANIZATION IANDRE/NNP)
+  (ORGANIZATION HARVEY/NNP)
+  (ORGANIZATION COVINA/NNP)
+  CA/NNP
+  91724/CD
+  14900/CD
+  N/NNP
+  GRAND/NNP
+  AVE/NNP
+  APT/NNP
+  131/CD
+  (ORGANIZATION ICOVINA/NNP)
+  CA/NNP
+  91724/CD
+  20/CD
+  ./.
+  MEMBER/NNP
+  REQUESTS/NNP
+  COPY/NNP
+  6/CD
+  BE/NNP
+  SENT/VBN
+  TO/NNP
+  (/(
+  (ORGANIZATION Specify/NNP)
+  state/locality/NN
+  )/)
+  (ORGANIZATION ___/NN CA/NNP)
+  ./.
+  (ORGANIZATION OFFICE/NNP OF/NNPS)
+  (ORGANIZATION VETERANS/NNP)
+  AFFAIRS/NNP
+  |/NNP
+  x/NNP
+  |/NNP
+  YES/NNP
+  |/NNP
+  |/NNP
+  NO/NNP
+  a/DT
+  ./.
+  MEMBER/NNP
+  REQUESTS/NNP
+  COPY/NNP
+  3/CD
+  BE/NNP
+  SENT/VBN
+  TO/NNP
+  THE/NNP
+  (ORGANIZATION CENTRAL/NNP)
+  OFFICE/NNP
+  OF/IN
+  (ORGANIZATION THE/NNP)
+  (ORGANIZATION DEPARTMENT/NNP OF/NNP)
+  VETERANS/NNP
+  AFFAIRS/NNP
+  Xx/NNP
+  |ves/VBZ
+  (ORGANIZATION NO/NNP)
+  (/(
+  (ORGANIZATION WASHINGTON/NNP)
+  ,/,
+  DC/NNP
+  )/)
+  21.2/CD
+  ./.
+  MEMBER/NNP
+  SIGNATURE/NNP
+  lb/NN
+  ./.
+  DATE/$
+  22.2/CD
+  ./.
+  OFFICIAL/NNP
+  AUTHORIZED/NNP
+  TO/NNP
+  SIGN/NNP
+  (/(
+  (ORGANIZATION Typed/NNP)
+  name/NN
+  ,/,
+  grade/NN
+  ,/,
+  title/NN
+  ,/,
+  signature/NN
+  )/)
+  b/NN
+  ./.
+  (ORGANIZATION DATE/NNP)
+  (/(
+  (ORGANIZATION YYYYMMDD/NNP)
+  )/)
+  —_|/VBP
+  CAC/PKI/NNP
+  SIGNED/NNP
+  BY/NNP
+  BAEZ.DAMON.C/NNP
+  ./.
+  1177302500/CD
+  (/(
+  (ORGANIZATION YYYYMMDD/NNP)
+  )/)
+  MEMBER/NNP
+  NOT/NNP
+  AVAILABLE/NNP
+  TO/NNP
+  SIGN/NNP
+  NVA/NNP
+  (PERSON Damon/NNP C./NNP Baez/NNP)
+  ,/,
+  (ORGANIZATION CTR/NNP)
+  TFSC/NNP
+  DD214/NNP
+  Technician/NNP
+  Sep/NNP
+  08/CD
+  2020/CD
+  4:10:21/CD
+  PM/NNP
+  (/(
+  (ORGANIZATION UTC/NNP)
+  )/)
+  20200908/CD
+  CAC/NNP
+  Serial/JJ
+  Number/NNP
+  :/:
+  15E7AC_/CD
+  IssuerCN/NN
+  :/:
+  (ORGANIZATION DOD/NNP)
+  ID/NNP
+  CA-49/NNP
+  DD/NNP
+  FORM/NNP
+  214/CD
+  ,/,
+  (ORGANIZATION AUG/NNP)
+  2009/CD
+  PREVIOUS/NNP
+  EDITION/NNP
+  IS/NNP
+  OBSOLETE/NNP
+  MEMBER-1/NNP)
+
+-----------------TRANSFORMERS-----------------
+
+{'entity': 'I-MISC', 'score': 0.9948639, 'index': 108, 'word': 'P', 'start': 246, 'end': 247}
+{'entity': 'I-MISC', 'score': 0.5629794, 'index': 109, 'word': '##ri', 'start': 247, 'end': 249}
+{'entity': 'I-MISC', 'score': 0.9592521, 'index': 111, 'word': '##cy', 'start': 251, 'end': 253}
+{'entity': 'I-MISC', 'score': 0.994611, 'index': 112, 'word': 'Act', 'start': 254, 'end': 257}
+{'entity': 'I-MISC', 'score': 0.9413612, 'index': 113, 'word': 'of', 'start': 258, 'end': 260}
+{'entity': 'I-MISC', 'score': 0.81742626, 'index': 114, 'word': '1974', 'start': 261, 'end': 265}
+{'entity': 'I-LOC', 'score': 0.30177698, 'index': 146, 'word': 'BR', 'start': 339, 'end': 341}
+{'entity': 'I-PER', 'score': 0.3008484, 'index': 163, 'word': 'I', 'start': 372, 'end': 373}
+{'entity': 'I-LOC', 'score': 0.37151024, 'index': 170, 'word': 'E', 'start': 385, 'end': 386}
+{'entity': 'I-LOC', 'score': 0.45224887, 'index': 171, 'word': '##LE', 'start': 386, 'end': 388}
+{'entity': 'I-LOC', 'score': 0.45863128, 'index': 172, 'word': '##A', 'start': 388, 'end': 389}
+{'entity': 'I-ORG', 'score': 0.5963803, 'index': 173, 'word': '##Z', 'start': 389, 'end': 390}
+{'entity': 'I-ORG', 'score': 0.46202025, 'index': 174, 'word': '##AR', 'start': 390, 'end': 392}
+{'entity': 'I-LOC', 'score': 0.44543716, 'index': 185, 'word': 'R', 'start': 410, 'end': 411}
+{'entity': 'I-ORG', 'score': 0.6521978, 'index': 186, 'word': '##EG', 'start': 411, 'end': 413}
+{'entity': 'I-ORG', 'score': 0.7620031, 'index': 187, 'word': '##AF', 'start': 413, 'end': 415}
+{'entity': 'I-LOC', 'score': 0.38903004, 'index': 225, 'word': 'Y', 'start': 486, 'end': 487}
+{'entity': 'I-LOC', 'score': 0.47210485, 'index': 322, 'word': 'E', 'start': 691, 'end': 692}
+{'entity': 'I-ORG', 'score': 0.66822267, 'index': 323, 'word': '##L', 'start': 692, 'end': 693}
+{'entity': 'I-LOC', 'score': 0.8162417, 'index': 324, 'word': 'SE', 'start': 694, 'end': 696}
+{'entity': 'I-LOC', 'score': 0.39421758, 'index': 325, 'word': '##G', 'start': 696, 'end': 697}
+{'entity': 'I-LOC', 'score': 0.7774305, 'index': 326, 'word': '##UN', 'start': 697, 'end': 699}
+{'entity': 'I-ORG', 'score': 0.44353464, 'index': 327, 'word': '##D', 'start': 699, 'end': 700}
+{'entity': 'I-LOC', 'score': 0.51474416, 'index': 328, 'word': '##O', 'start': 700, 'end': 701}
+{'entity': 'I-LOC', 'score': 0.40496618, 'index': 330, 'word': 'CO', 'start': 705, 'end': 707}
+{'entity': 'I-ORG', 'score': 0.36612847, 'index': 331, 'word': '##VI', 'start': 707, 'end': 709}
+{'entity': 'I-PER', 'score': 0.47162822, 'index': 349, 'word': 'MA', 'start': 744, 'end': 746}
+{'entity': 'I-ORG', 'score': 0.62187636, 'index': 350, 'word': '##J', 'start': 746, 'end': 747}
+{'entity': 'I-ORG', 'score': 0.5900568, 'index': 392, 'word': '##A', 'start': 824, 'end': 825}
+{'entity': 'I-ORG', 'score': 0.4098607, 'index': 404, 'word': '##D', 'start': 847, 'end': 848}
+{'entity': 'I-ORG', 'score': 0.5922107, 'index': 485, 'word': '##A', 'start': 1022, 'end': 1023}
+{'entity': 'I-ORG', 'score': 0.5326345, 'index': 505, 'word': '##NT', 'start': 1103, 'end': 1105}
