@@ -1,4 +1,5 @@
 from pyChatGPT import ChatGPT
+import os
 
 conversation_id=input("What conversation id should be used?")
 session_token=input("What session token should be used?")
