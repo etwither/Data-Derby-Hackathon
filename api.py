@@ -1,6 +1,10 @@
-openapi.api_key = "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"
+import openai
+openai.api_key = "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"
 
-prompt = "Hello, how can I help you today?"
+
+
+prompt = input("please enter a question")
+
 model = "text-davinci-002" # Or any other model you want to use
 response = openai.Completion.create(
     engine=model,
