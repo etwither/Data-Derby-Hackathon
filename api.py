@@ -1,5 +1,3 @@
-import openapi
-
 openapi.api_key = "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"
 
 prompt = "Hello, how can I help you today?"
@@ -14,4 +12,3 @@ response = openai.Completion.create(
 )
 
 print(response.choices[0].text)
-
